@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(223, 221, 221);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 15px;
+    box-shadow: 5px 5px rgba(95, 95, 95, 0.466);
+}
+#calculate{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    margin-top:1em ;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#calculate:hover{
+    background-color: #5fd863;
+    box-shadow: 5px 5px rgba(95, 95, 95, 0.233);
+}
+.input-lable{
+    margin-top: 2px;
+    padding: 1px;
+    font-weight: bolder;
+    margin-right: auto;
+}
+#rate, #amount, #years{
+    background-color: rgb(245, 244, 243);
+    font-weight: bolder;
+}
+#output{
+    margin-top: 10px;
+}
