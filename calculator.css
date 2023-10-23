@@ -5,36 +5,57 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     display: inline-block;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20%;
     padding: 15px;
     box-shadow: 5px 5px rgba(95, 95, 95, 0.466);
+}
+.cal{
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    font-size:xx-large;
+    padding: 20px;
 }
 #calculate{
     background-color: #4CAF50;
     border: none;
     color: white;
     margin-top:1em ;
-    padding: 15px 32px;
+    margin-left: 30%;
+    padding: 10px 22px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display:block;
     font-size: 16px;
+    cursor: pointer;
 }
 #calculate:hover{
+    transform: scale(1.1);
     background-color: #5fd863;
     box-shadow: 5px 5px rgba(95, 95, 95, 0.233);
 }
 .input-lable{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-top: 2px;
     padding: 1px;
     font-weight: bolder;
-    margin-right: auto;
+    font-size: large;
 }
-#rate, #amount, #years{
+#rate, #amount, #years, #downPayment{
     background-color: rgb(245, 244, 243);
-    font-weight: bolder;
+    
+}
+#rate:hover, #amount:hover, #years:hover, #downPayment:hover{
+    background-color: rgb(170, 194, 166);
+
 }
 #output{
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
